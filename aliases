@@ -1,0 +1,27 @@
+alias test='clear; bundle exec rspec'
+
+alias int='clear; rails server -e integration'
+
+alias serv='clear; rails s'
+
+alias routes='clear; rake routes'
+
+alias rebuild='clear; rake db:drop db:create db:migrate  db:seed  db:test:load'
+
+alias gb='gradle build copyFiles'
+
+alias stat='git status'
+
+alias fetch='git fetch'
+
+alias push='git push'
+
+alias pull='git pull'
+
+alias mail='mailcatcher --http-ip 0.0.0.0'
+
+alias resque_work='WORKERS=5 QUEUE=* bundle exec rake resque:work'
+
+alias listen='bundle exec rake can:message:listen'
+
+alias scheduler='bundle exec rake resque:scheduler'
