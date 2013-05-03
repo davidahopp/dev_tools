@@ -1,4 +1,4 @@
-alias test='clear; bundle exec rspec'
+alias t='clear; bundle exec rspec'
 
 alias int='clear; rails server -e integration'
 
